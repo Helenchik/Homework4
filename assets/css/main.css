@@ -1,0 +1,196 @@
+.page {
+ display: block;
+  width: 1000px;
+  height: 1025px;
+  padding: 38px 151px 0;
+}
+header {
+  width: 1000px;
+  position: relative;
+   /* border: solid 1px blue; */
+}
+.logo-wrapper{
+height: 175px;
+}
+.contact {
+position: absolute;
+top: 0;
+right: 2px;
+
+}
+.flags ul {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+/* border: 1px solid red; */
+}
+.flags ul li {
+  display:inline-block;
+  width: 52px;
+  text-align: center;
+  font-size: 12px;
+  /* border: solid 1px #808080; */
+}
+.flags ul li:nth-child(5) {
+  width: 60px;}
+
+
+
+/* Всплывающее подменю */
+
+
+header1 {
+width: 1000px;
+height: 268px;
+}
+
+header1 ul {
+    width: 1000px;
+    list-style: none;
+    color: #ffffff;
+    background-color: #323232;
+}
+ ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+  .menu {
+  height: 31px;
+  line-height: 31px;
+}
+
+ul.menu > li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 115px;
+    /* height: 31px;
+    line-height: 31px; */
+    text-align: center;
+    font: 12px 'Sans Serif';
+}
+ul.menu > li > a {
+    display: block;
+    color: white;
+    background-color: #323232;
+    text-decoration: none;
+    height: 31px;
+}
+ul.menu > li > a:hover {
+    /* border-bottom: 1px black; */
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 137px;
+    background-color: #323232;
+    border-top: 1px solid #000000;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #323232;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+    z-index: 1;
+}
+/* Три равные по высоте колонки */
+
+
+section {
+ display: block;
+ height: 540px;
+ overflow: hidden;
+}
+
+#container3 {
+    float:left;
+    width:1000px;
+    height: 540px;
+    background:#edeef0;
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:1000px;
+    height:540px;
+   /* overflow:hidden; */
+    background:#ffffff;
+    position:relative;
+    right:30%;
+}
+#container1 {
+    float:left;
+    width:1000px;
+    height: 540px;
+    background:#edeef0;
+    position:relative;
+    right:40%;
+    /* overflow:hidden; */
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+  }
+
+  p {
+    display: block;
+    width:auto;
+    text-align: center;
+    padding: 10px 0;
+    }
+
+
+.clearfix::before
+.clearfix:after{
+content: "";
+display: block;
+/* height: 0; */
+clear: both;
+float: none;
+visibility: hidden;
+}
+
+
+footer {
+display: block;
+height:15px;}
+
+footer p {
+text-align: center;
+vertical-align: middle;
+font-size: 10px;
+color: #ffffff;
+
+}
+
+/* .clearfix {display: inline-block;} */
